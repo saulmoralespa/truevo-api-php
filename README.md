@@ -1,15 +1,16 @@
-Composer Library Template
-=========================
+Truevo API PHP
+============================================================
 
-If you are trying to create a new PHP Composer library, whether it will be going to submitted to packagist.org or just in your Github account, this template of files will surely help you make the process a lot easier and faster.
+## Installation
 
-Features
---------
+Use composer package manager
 
-* PSR-4 autoloading compliant structure
-* Unit-Testing with PHPUnit
-* Comprehensive Guides and tutorial
-* Easy to use to any framework or even a plain php file
+```bash
+composer require saulmoralespa/truevo-api-php
+```
 
+#### Bootstrapping autoloader and instantiating a client
 
-I encourage that you put more information on this readme file instead of leaving it as is. See [How to make a README file](http://www.darwinbiler.com/designing-and-making-the-readme-file-for-your-github-repository/) for more info.
+```php
+// ... please, add composer autoloader first
+include_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
