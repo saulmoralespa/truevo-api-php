@@ -9,7 +9,7 @@ Use composer package manager
 composer require saulmoralespa/truevo-api-php
 ```
 
-#### Bootstrapping autoloader and instantiating a client
+#### Bootstrapping autoloader and instantiating
 
 ```php
 // ... please, add composer autoloader first
